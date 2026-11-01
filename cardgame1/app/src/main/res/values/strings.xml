@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">cardgame1</string>
+    <!-- 应用标题：姓名+学号 -->
+    <string name="app_name">续睿智2024050443</string>
+
+    <!-- 修改个人信息页面文字 -->
+    <string name="hint_name">请输入姓名</string>
+    <string name="hint_stuid">请输入学号</string>
+    <string name="hint_phone">请输入电话</string>
+    <string name="hint_email">请输入邮箱</string>
+    <string name="text_male">男</string>
+    <string name="text_female">女</string>
+    <string name="hobby_travel">旅游</string>
+    <string name="hobby_read">阅读</string>
+    <string name="hobby_game">游戏</string>
+    <string name="hobby_shop">购物</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- 游戏页面文字 -->
+    <string name="score_text">得分:%1$d</string>
+    <string name="btn_reset">重置游戏</string>
+    <string name="btn_exit">退出</string>
+    <string name="card_back_text">X</string>
+
+    <!-- 首页文字（带格式化占位符） -->
+    <string name="text_name">姓名:%1$s</string>
+    <string name="text_stuid">学号:%1$s</string>
+    <string name="text_gender">性别:%1$s</string>
+    <string name="text_phone">电话:%1$s</string>
+    <string name="text_email">邮件地址:%1$s</string>
+    <string name="text_hobby">爱好:%1$s</string>
+    <string name="text_highscore">游戏最高分:%1$d</string>
+    <string name="btn_edit_info">修改个人信息</string>
+    <string name="btn_start_game">进入翻牌游戏</string>
+
+    <!-- Toast提示 -->
+    <string name="toast_save_success">保存成功</string>
+
+    <!-- 菜单与对话框 -->
+    <string name="menu_about">关于</string>
+    <string name="dialog_about_title">关于本应用</string>
+    <string name="dialog_about_message">开发者：续睿智\n学号：2024050443\n版本：1.0</string>
+    <string name="dialog_ok">确定</string>
 </resources>
